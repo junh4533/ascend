@@ -1,0 +1,29 @@
+.navbar {
+    z-index:99999;
+    height: 7vh;
+    position: absolute;
+    width: 100vw;
+    background-color: transparent;
+ }
+ 
+ .nav-link {
+    color: white;
+    font-size: 15px;
+ }
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 10px;
+    letter-spacing: 3px;
+ }
+
+ .navbar-brand>img {
+    width: 80px;
+ }
+
+ li a:hover{
+     color:#F19500;
+ }
