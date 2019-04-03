@@ -13,7 +13,7 @@ $(document).ready(function () {
       loop: true
     });
    
-    typewriter.typeString('freshman')
+    typewriter.pauseFor(1000).typeString('freshman')
       .pauseFor(250)
       .deleteAll()
       .pauseFor(250)
@@ -30,16 +30,16 @@ $(document).ready(function () {
       .deleteAll()
       .pauseFor(250)
       .typeString('student')
-      .pauseFor(250)
+      .pauseFor(1500)
       .start();
-   
+
     var line2 = document.getElementById('goal');
    
     var typewriter2 = new Typewriter(line2, {
       loop: true
     });
    
-    typewriter2.typeString('learn')
+    typewriter2.pauseFor(1000).typeString('learn')
       .pauseFor(500)
       .deleteAll()
       .pauseFor(250)
@@ -56,7 +56,7 @@ $(document).ready(function () {
       .deleteAll()
       .pauseFor(250)
       .typeString('<strong style="color:orange">Ascend</strong>')
-      .pauseFor(250)
+      .pauseFor(1500)
       .start();
 });
    

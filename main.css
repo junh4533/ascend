@@ -5,8 +5,24 @@ html {
    font-family: 'Archivo';
 }
 
+#top_layer {
+   z-index: 99999;
+   width: 40%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
 .slogan>h1 {
    display: inline;
+}
+
+#top_layer > .slogan{
+   text-align: left;
+   position: relative;
+   left:10%;
 }
 
 #main_content {
@@ -19,15 +35,7 @@ html {
    margin: 0 auto;
 }
 
-#top_layer {
-   z-index: 99999;
-   width: 40%;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-}
+
 
 .full {
    height: 100vh;
