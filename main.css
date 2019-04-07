@@ -6,7 +6,7 @@ html {
    font-size: 100%;
 }
 
-.center{
+.center {
    position: absolute;
    top: 50%;
    left: 50%;
@@ -38,17 +38,17 @@ html {
    text-align: center;
 }
 
-.slogan{
+.slogan {
    position: relative;
    max-width: 40%;
-   left:35%;
+   left: 35%;
    text-align: left;
 }
 
-.slogan h1{
+.slogan h1 {
    display: inline;
    position: relative;
-   left: 0; 
+   left: 0;
    font-size: 3vmax;
    font-weight: 500;
 }
@@ -60,11 +60,11 @@ html {
 #programs {
    background-color: #252233;
    color: white;
-   width:100vw;
+   width: 100vw;
 }
 
 #programs .row {
-   height:100vh;
+   height: 100vh;
 }
 
 #llp {
@@ -79,14 +79,14 @@ html {
 #split_container {
    position: relative;
    width: 100%;
-   height:100vh;
+   height: 100vh;
    overflow: hidden;
 }
 
 .panel {
    position: absolute;
    width: 100vw;
-   height:100%;
+   height: 100%;
    overflow: hidden;
 }
 
@@ -94,7 +94,7 @@ html {
    position: absolute;
    width: 100vw;
    /* min-height: 45vw; */
-   height:100vh;
+   height: 100vh;
    color: #FFF;
 }
 
@@ -132,7 +132,7 @@ html {
 }
 
 /* Skewed. */
-.skewed #split_divider{
+.skewed #split_divider {
    top: 50%;
    transform: rotate(30deg) translateY(-50%);
    height: 200%;
