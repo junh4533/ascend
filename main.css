@@ -58,7 +58,7 @@ html {
 }
 
 #programs {
-   background-color: #252233;
+   background: #252233;
    color: white;
    width: 100vw;
 }
@@ -154,8 +154,12 @@ html {
 
 #soon{
    position: absolute;
-   top: 150%;
+   top: 250vh;
    left: 50%;
    transform: translate(-50%, -50%);
    text-align: center;
+}
+
+#soon_section{
+   background: #252233;
 }
