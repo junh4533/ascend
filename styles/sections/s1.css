@@ -1,0 +1,29 @@
+#home {
+    height: 100vh;
+    background-image: url('../../images/bg.jpg');
+    background-size: cover;
+    color: white;
+    z-index: -99999;
+    margin: 0 auto;
+ }
+ 
+ #top_layer {
+    z-index: 99999;
+    width: 100%;
+    text-align: center;
+ }
+ 
+ .slogan {
+    position: relative;
+    max-width: 40%;
+    left: 35%;
+    text-align: left;
+ }
+ 
+ .slogan h1 {
+    display: inline;
+    position: relative;
+    left: 0;
+    font-size: 3vmax;
+    font-weight: 500;
+ }

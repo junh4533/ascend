@@ -1,0 +1,31 @@
+.navbar {
+   top:0;
+   z-index: 999;
+   height: 7vh;
+   position: absolute;
+   width: 100%;
+   background-color: rgba(0,0,0,.3);
+}
+
+.nav-link {
+   color: white;
+   font-size: 1.8vmin;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-weight: 400;
+   text-transform: uppercase;
+   margin: 0 10px;
+   letter-spacing: 3px;
+}
+
+.navbar-brand img {
+   width: 10vmin;
+   z-index: 999;
+}
+
+li a:hover {
+   color: #F19500;
+}
