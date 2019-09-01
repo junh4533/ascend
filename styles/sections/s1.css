@@ -27,3 +27,34 @@
     font-size: 3vmax;
     font-weight: 500;
  }
+
+ #newsletter-modal{
+    text-align: center;
+    color:white;
+ }
+
+ #newsletter-modal .modal-content{
+   background-image: linear-gradient(to top right, #260D2A, rgb(22, 13, 42), #151751); 
+ }
+
+ #newsletter-modal .close{
+    color:#F19500;
+ }
+
+ #newsletter-modal .fa {
+    color:#F19500;
+    font-size:150%;
+ }
+
+ #newsletter-modal a{
+   text-decoration: none;
+}
+
+#newsletter-modal a:hover{
+   color: white;
+   text-decoration: none;
+}
+
+ #newsletter-modal-footer button{
+    background-color:rgb(192, 118, 0);
+ }

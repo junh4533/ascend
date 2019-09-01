@@ -1,0 +1,83 @@
+.panel_container {
+    display: flex;
+    height: 100vh;
+}
+
+.committee_panel {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: #F19500;
+    transition: flex .4s ease;
+    position: relative;
+}
+
+.committee_panel .tint {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: background-color .8s ease;
+}
+
+.committee_panel .content {
+    position: relative;
+    z-index: 999;
+    text-align: center;
+}
+
+.committee_panel:hover {
+    flex: 2;
+}
+
+.committee_panel:hover .tint {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.content p {
+    position: relative;
+    visibility: hidden;
+    top: 0;
+    transition: top .8s ease;
+    color: white;
+}
+
+#marketing {
+    background-image: url('../../images/marketing.jpg');
+}
+
+#technology {
+    background-image: url('../../images/coding4.png');
+}
+
+#fundraising {
+    background-image: url('../../images/fundraising.jpg');
+}
+
+#professional {
+    background-image: url('../../images/professional.jpg');
+}
+
+@media only screen and (max-width: 1200px) {
+    .panel_container {
+        flex-direction: column;
+    }
+
+    .committee_panel:hover p {
+        visibility: visible;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .content p {
+        max-width: 15vw;
+    }
+
+    .committee_panel:hover p {
+        top: 5vh;
+        visibility: visible;
+    }
+
+}

@@ -1,20 +1,27 @@
-button {
+.animated_button {
   background: rgba(0, 0, 0, 0.4);
-  color: #F19500;
   border: none;
   position: relative;
   font-size: 1em;
   transition: 800ms ease all;
   outline: none;
+  height: 5vh;
+  width: 18vh;
+  letter-spacing: 3px;
 }
 
-button:hover {
+.animated_button:hover{
   background: rgba(0, 0, 0, .8);
   color: white;
 }
 
-button:before,
-button:after {
+.animated_button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.animated_button:before,
+.animated_button:after {
   content: '';
   position: absolute;
   top: 0;
@@ -25,27 +32,30 @@ button:after {
   transition: 400ms ease all;
 }
 
-button:after {
+.animated_button:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
 }
 
-button:hover:before,
-button:hover:after {
+.animated_button:hover:before,
+.animated_button:hover:after {
   width: 100%;
   transition: 800ms ease all;
 }
 
-#join_button {
-  height: 5vh;
-  width: 18vh;
-  letter-spacing: 3px;
+.animated_button a{
+  color:#F19500;
+  text-decoration: none;
 }
 
-#learn_button {
-  height: 5vh;
-  width: 18vh;
-  letter-spacing: 3px;
+#top_layer a{
+  text-decoration: none; 
+  color: #F19500;
 }
+
+#top_layer a:hover{
+  color: white;
+}
+

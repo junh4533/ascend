@@ -1,3 +1,7 @@
+* {
+   box-sizing: border-box;
+}
+
 body,
 html {
    height: 100%;
@@ -5,6 +9,10 @@ html {
    font-family: 'Archivo';
    font-size: 100%;
    scroll-behavior: smooth;
+}
+
+.fp-tableCell {
+   display: block;
 }
 
 .full {
@@ -19,37 +27,33 @@ html {
 }
 
 .tint {
-   z-index: 10;
    height: 100vh;
    width: 100vw;
    position: absolute;
    top: 0;
    left: 0;
    background: rgba(0, 0, 0, .5);
+   z-index: 10;
 }
 
-/* #programs {
-   background: #252233;
-   color: white;
-   width: 100vw;
+.spacer {
+   display: block;
+   height: 7vh;
 }
 
-#programs .row {
+#eboard .row {
+   height: 40vh;
+}
+
+.section-heading {
+   color: #F19500;
+   font-weight: 900;
+}
+
+.verticalhorizontal {
+   display: table-cell;
    height: 100vh;
-} */
-
-/* #soon{
-   position: absolute;
-   top: 250vh;
-   left: 50%;
-   transform: translate(-50%, -50%);
    text-align: center;
-}
-
-#soon_section{
-   background: #252233;
-} */
-
-#eboard .row{
-   height:40vh;
+   width: 100vw;
+   vertical-align: middle;
 }
