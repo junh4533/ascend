@@ -2,13 +2,32 @@
 <html>
 
 <head>
+
     <title>Ascend Baruch</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="Ascend is a social and professional organization at Baruch College.">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ascend is a Pan-Asian social and professional organization at Baruch College.">
     <meta name="keywords"
         content="Ascend, Ascend Baruch, Baruch, Baruch College, Professional, Social, Events, Asian, Club, Organization">
-    <meta name="author" content="Jun Huang">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'>
@@ -63,7 +82,7 @@
                     <a class="nav-link hvr-underline-from-center" href="#s5">Programs</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link hvr-underline-from-center" href="#s6">Events</a>
+                    <a class="nav-link hvr-underline-from-center" href="#s6">Mini Hackathon</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link hvr-underline-from-center" href="#s7">Join</a>
@@ -74,34 +93,36 @@
 
     <!-- The Modal -->
     <div class="modal fade" id="newsletter-modal">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
 
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">Stay in the Loop!</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <p>We'll notify you when there's free food 😋</p>
-                        <br>
-                        <a href="https://forms.gle/e7UVinJLTKe1eRCt8" target="_blank" class="fa fa-newspaper-o"></a>&nbsp;
-                        <a href="https://www.facebook.com/AscendBaruch/?ref=br_rs" target="_blank" class="fa fa-facebook"></a>&nbsp;
-                        <a href="https://www.instagram.com/ascendbaruch/?hl=en" target="_blank" class="fa fa-instagram"></a>&nbsp;
-                        <a href="https://twitter.com/ascendbaruch?lang=en" target="_blank" class="fa fa-twitter"></a>&nbsp;
-                        <a href="mailto:tech@ascendbaruch.org" target="_blank" class="fa fa-envelope"></a> &nbsp;
-                    </div>
-
-                    <!-- Modal footer -->
-                    <div class="modal-footer" id="newsletter-modal-footer">
-                        <button type="button" class="btn" data-dismiss="modal">Close</button>
-                    </div>
-
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Stay in the Loop!</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>We'll notify you when there's free food 😋</p>
+                    <br>
+                    <a href="https://forms.gle/e7UVinJLTKe1eRCt8" target="_blank" class="fa fa-newspaper-o"></a>&nbsp;
+                    <a href="https://www.facebook.com/AscendBaruch/?ref=br_rs" target="_blank"
+                        class="fa fa-facebook"></a>&nbsp;
+                    <a href="https://www.instagram.com/ascendbaruch/?hl=en" target="_blank"
+                        class="fa fa-instagram"></a>&nbsp;
+                    <a href="https://twitter.com/ascendbaruch?lang=en" target="_blank" class="fa fa-twitter"></a>&nbsp;
+                    <a href="mailto:tech@ascendbaruch.org" target="_blank" class="fa fa-envelope"></a> &nbsp;
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer" id="newsletter-modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+
             </div>
         </div>
+    </div>
 
     <!-- Container for all sections-->
     <div id="fullpage">
@@ -155,7 +176,7 @@
                             <p>Ascend Baruch has a vast professional network that allows us to host many corporate
                                 events.
                                 This allows our members to learn about the business world while building their
-                                professional network.​​
+                                professional network.
                             </p>
                         </div>
                         <img class="center" src="images/events/llp.jpg">
@@ -272,39 +293,40 @@
                 <div id="marketing" class="committee_panel">
                     <div class="content">
                         <h1>Marketing</h1>
-                        <p>The marketing committee is tasked with devising new marketing strategies to increase Ascend's
-                            presence on campus.
-                            This will include drafting flyers, managing social media platforms, and designing exclusive
-                            merchandise to market Ascend to college students.</p>
+                        <p>The Marketing Committee devises marketing strategies to increase Ascend's
+                            presence on campus. Members will design flyers, manage Ascend's social media
+                            platforms, design exclusive merchandise, and learn how to use marketing tools
+                            such as Adobe Creative Suite and Canva.</p>
                     </div>
                     <div class="tint"></div>
                 </div>
                 <div id="technology" class="committee_panel">
                     <div class="content">
                         <h1>Technology</h1>
-                        <p>The technology committee is responsible for maintaining our website and innovating new
-                            features to attract new members.
-                            We also have to improve eboard internal workflow using industry leading tools like Trello
-                            and Slack.</p>
+                        <p>The Technology Committee maintains Ascend's website and launches features to
+                            better convey the range of opportunities available at Ascend. Members will build
+                            foundational knowledge in coding and programming and learn how to use industry
+                            standard tools such as Github and Slack.</p>
                     </div>
                     <div class="tint"></div>
                 </div>
                 <div id="fundraising" class="committee_panel">
                     <div class="content">
                         <h1>Fundraising</h1>
-                        <p>The fundraising committee focuses on collecting funding to make Ascend Events possible.
-                            This is not limited to Baruch events but also involves funding for other Ascend chapters and
-                            causes.</p>
+                        <p>The Fundraising Committee hosts the fundraisers that make other Ascend Events
+                            possible. Members will brainstorm creative ideas for fundraisers, create
+                            fundraising materials, and connect with students to inform them about what it
+                            means to be a part of the Ascend community.</p>
                     </div>
                     <div class="tint"></div>
                 </div>
                 <div id="professional" class="committee_panel">
                     <div class="content">
                         <h1>Professional</h1>
-                        <p>The professional committee is in charge of planning profesisonal events including networking
-                            sessions,
-                            resume/cover letter workshops, and professional panels to bring industrial insights to
-                            Baruch students. </p>
+                        <p>The Professional Committee plans professional development events including
+                            resume/cover letter workshops, networking sessions, and professional panels.
+                            Members will have the chance to attend exclusive office visits and learn about
+                            different professional opportunities.</p>
                     </div>
                     <div class="tint"></div>
                 </div>
@@ -347,13 +369,14 @@
                                     their
                                     mentors
                                     and improve professional communication skills.</p>
-                                <button class="animated_button"><a href="#">Apply</a></button>
+                                <button class="animated_button"><a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLScoSLMi9_Ty9qMln4eymQcqXmfEVx7WAhuP39ZyaRRm6WUX6g/viewform">Apply</a></button>
                             </div>
 
                             <div class="col-12 col-xl-5 verticalhorizontal">
                                 <br><br>
                                 <iframe id="llp_video"
-                                    src="https://drive.google.com/file/d/136PdT7I--IwsNvEdMDgElZOehWqu1QWQ/preview"
+                                    src="https://drive.google.com/file/d/1XCCxvtAWR9gpCEYfHTnUhtb_PKAQUZcE/preview"
                                     frameborder="0"></iframe>
                             </div>
 
@@ -371,17 +394,18 @@
                                 <p class="program-description">Whether it is machine learning used for financial
                                     algorithms or VBA applied to accounting formulas, technology has become an integral
                                     part of the business world.
-                                    In this 8-week series of web development workshops, you’ll grasp the fundamentals of
+                                    In this 8-week series of web development workshops, you'll grasp the fundamentals of
                                     coding and programming through building a full-fledged personal website.
                                     This website can be used as a portfolio to showcase your technical expertise, an
                                     e-commerce platform to sell goods/services, or simply a personal website to share
                                     your story with the world.
-                                    Throughout the course, you’ll also learn how to use industry-leading tools like
+                                    Throughout the course, you'll also learn how to use industry-leading tools like
                                     Visual Studio, Github, Trello, and Slack.
-                                    But more importantly, you’ll acquire essential coding and programming skills that
+                                    But more importantly, you'll acquire essential coding and programming skills that
                                     will give you a competitive edge in any industry.
                                 </p>
-                                <button id="test" class="animated_button"><a href="#">Apply</a></button>
+                                <button id="test" class="animated_button"><a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSewkoGGVFsnwHgLV-ntG33_td9DMfWt2aAytV8GugvYjKuVTg/viewform">Apply</a></button>
                             </div>
 
                             <div class="col-12 col-xl-5 verticalhorizontal">
@@ -400,8 +424,69 @@
 
         <!-- Events Section -->
         <div class="full section" id="events" data-anchor="s6">
-            <!-- <div class="tint"></div> -->
-            <div class="verticalhorizontal"><img class="img-fluid" src="images/events/sept.png"></div>
+            <br><br><br><br><br>
+            <div class="container-fluid program-description text-center">
+                <h1 class="section-heading text-center">Fall 2019 Tech Committee Hackathon Winners</h1>
+                <br><br>
+                <div id="hackathon" class="carousel slide" data-ride="carousel">
+                    <!-- <ul class="carousel-indicators">
+                        <li data-target="#hackathon" data-slide-to="0" class="active"></li>
+                        <li data-target="#hackathon" data-slide-to="1"></li>
+                        <li data-target="#hackathon" data-slide-to="2"></li>
+                        <li data-target="#hackathon" data-slide-to="3"></li>
+                        <li data-target="#hackathon" data-slide-to="4"></li>
+                    </ul> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="tint"></div>
+                            <img class="img-fluid" src="images/events/hackathon/jessica.png" alt="Jessica">
+                            <div class="carousel-caption">
+                                <h3>Jessica Wong - 1st Place</h3>
+                                <p><a href="https://jwong2267.github.io" class="hvr-underline-from-center">jwong2267.github.io</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="tint"></div>
+                            <img src="images/events/hackathon/jasper.png" alt="Jasper">
+                            <div class="carousel-caption">
+                                <h3>Jasper Walia - 2nd Place</h3>
+                                <p><a href="https://jasperwalia.github.io/" class="hvr-underline-from-center">jasperwalia.github.io/</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="tint"></div>
+                            <img src="images/events/hackathon/jason_mei.png" alt="Jason Mei">
+                            <div class="carousel-caption">
+                                <h3>Jason Mei - 3rd Place</h3>
+                                <p><a href="https://thelord523.github.io/TheLord5231.github.io/" class="hvr-underline-from-center">thelord523.github.io/</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="tint"></div>
+                            <img src="images/events/hackathon/jason_lam.png" alt="Jason Lam">
+                            <div class="carousel-caption">
+                                <h3>Jason Lam - 4th Place</h3>
+                                <p><a href="https://jlam8264.github.io/" class="hvr-underline-from-center">jlam8264.github.io/</a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="tint"></div>
+                            <img src="images/events/hackathon/benjamin.png" alt="Benjamin Chan">
+                            <div class="carousel-caption">
+                                <h3>Benjamin Chan - 5th Place</h3>
+                                <p><a href="https://benjichan03.github.io/" class="hvr-underline-from-center">benjichan03.github.io/</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#hackathon" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#hackathon" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+
         </div>
 
         <!-- Join Section -->
@@ -412,7 +497,7 @@
             <br>
             <div class="container" id="membership">
                 <div class="row flex-row flex-nowrap">
-                    <div class="col-12">
+                    <div class="col-8">
                         <div class="card card-block">
                             <br>
                             <h2>General Member</h2>
@@ -428,7 +513,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <div class="card card-block">
                             <br>
                             <h2>Assistant Vice President</h2>
@@ -440,10 +525,11 @@
                                 <br>
                                 <li>Eligibility to become an eboard member</li>
                             </ul>
-                            <button class="animated_button"><a href="#">Apply</a></button>
+                            <button class="animated_button"><a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSegnRkHPS2uy0t9yqGWRzHBNqsJQkkOSWW7oS_vh0I5ZN4qSA/viewform">Apply</a></button>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <div class="card card-block">
                             <br>
                             <h2>Executive Board</h2>
@@ -457,10 +543,10 @@
                                 <br>
                                 <li>Must be an Ascend National Member</li>
                             </ul>
-                            <button class="animated_button"><a href="#">Apply</a></button>
+                            <button class="animated_button"><a href="#">Not open</a></button>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-8">
                         <div class="card card-block">
                             <br>
                             <h2>Ascend National Member</h2>
@@ -474,7 +560,8 @@
                                 <br>
                                 <li>Annual membership fee of $25</li>
                             </ul>
-                            <button class="animated_button"><a href="#">Apply</a></button>
+                            <button class="animated_button"><a
+                                    href="https://www.ascendleadership.org/general/register_member_type.asp?">Apply</a></button>
                         </div>
                     </div>
                 </div>
@@ -500,9 +587,10 @@
     <!-- BS JS -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <!-- JS Libraries -->
+    <!-- Typewriter JS -->
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
+    <!--Fullpage JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.min.js"></script>
 
     <script src="scripts/main.js" type="text/javascript"></script>

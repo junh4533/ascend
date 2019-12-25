@@ -1,5 +1,6 @@
 * {
    box-sizing: border-box;
+   z-index:0;
 }
 
 body,
@@ -28,7 +29,7 @@ html {
 
 .tint {
    height: 100vh;
-   width: 100vw;
+   width: 100%;
    position: absolute;
    top: 0;
    left: 0;
@@ -46,8 +47,10 @@ html {
 }
 
 .section-heading {
+    position: relative;
    color: #F19500;
    font-weight: 900;
+   z-index: 10;
 }
 
 .verticalhorizontal {

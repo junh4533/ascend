@@ -3,3 +3,27 @@
     background-size: cover;
 }
 
+#hackathon {
+    z-index: 99999999;
+}
+
+#hackathon, #hackathon .carousel-inner, #hackathon img{
+    /* max-width:80vw; */
+    max-height: 60vh;
+    height: 100%;
+    /* width:100%; */
+}
+
+#hackathon .carousel-control-prev, #hackathon .carousel-control-next {
+    max-width:80vw;
+    max-height: 60vh;
+}
+
+#hackathon .carousel-inner img {
+    margin: auto;
+  }
+
+#hackathon a {
+    color: #F19500;
+    text-decoration: none;
+}

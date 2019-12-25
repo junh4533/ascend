@@ -11,18 +11,19 @@
     top: 10vh;
 }
 
-#programs-carousel{
-    z-index:999999;
-} 
 
-.carousel-inner{
-    z-index:-99999999;
-}
+#programs-carousel{
+    z-index:9999999;
+} 
 
 #programs-carousel li {
     height: 10px;
     background-color: #F19500;
 } 
+
+#w3_image{
+    max-width:80%;
+}
 
 @media only screen and (max-width: 1200px) {
     .row-programs .section-heading{
