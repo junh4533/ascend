@@ -6,9 +6,9 @@
     text-align: center;
 }
 
-#join .tint {
+#join-tint{
     background: rgba(0, 0, 0, .8);
-    
+    z-index:-1;
 }
 
 #membership{
@@ -53,20 +53,24 @@
 }
 
 #membership::-webkit-scrollbar {
+    position:relative;
     width: 10px;
+    z-index:999;
 }
 
 #membership::-webkit-scrollbar-track {
+    position:relative;
     background: rgba(59, 61, 66, 0.507);
     border: 5px solid transparent;
     background-clip: content-box;  
+    z-index:999;
 }
 
 #membership::-webkit-scrollbar-thumb {
+    position:relative;
     background: #F19500;
     border: none;
+    z-index:999;
 }
 
-#join-tint{
-    z-index:-10;
-}
+
