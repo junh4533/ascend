@@ -5,9 +5,10 @@
   font-size: 1em;
   transition: 800ms ease all;
   outline: none;
-  height: 5vh;
+  height: 9vh;
   width: 18vh;
   letter-spacing: 3px;
+  vertical-align: bottom;
 }
 
 .animated_button:hover{
