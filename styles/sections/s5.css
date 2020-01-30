@@ -21,8 +21,8 @@
     background-color: #F19500;
 } 
 
-#w3_image{
-    max-width:80%;
+#python-flyer{
+    max-height:70%;
 }
 
 @media only screen and (max-width: 1200px) {

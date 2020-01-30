@@ -11,15 +11,7 @@ $(window).on('load', function () {
 });
 
 $(document).ready(function () {
-
-  // $('#homepage-toast').toast({
-  //   delay: 8000
-  // })
-
-  // $('#homepage-toast').toast('show');
-
   
-
   $('#fullpage').fullpage();
   var line1 = document.getElementById('year');
   var line2 = document.getElementById('goal');
@@ -93,11 +85,10 @@ $(document).ready(function () {
         topPanel.style.width = event.clientX + skewHack + delta + 'px';
 
         width = $(window).width();
-        tint_opacity1 = opacity_range(event.clientX, 0, width) * .7;
-        tint_opacity2 = opacity_range(event.clientX, width, 0) * .7;
-        // console.log(tint_opacity1)
-        tint_social.style.background = "rgba(0, 0, 0, ${tint_opacity1})";
-        tint_professional.style.background = "rgba(0, 0, 0, ${tint_opacity2})";
+        tint_opacity1 = opacity_range(event.clientX, 0, width) * .8;
+        tint_opacity2 = opacity_range(event.clientX, width, 0) * .8;
+        tint_social.style.background = `rgba(0, 0, 0, ${tint_opacity1})`;
+        tint_professional.style.background = `rgba(0, 0, 0, ${tint_opacity2})`;
       });
     } else {
       $("#social").before($("#social_enrichment")); //move social enrichment heading before its description
@@ -106,8 +97,8 @@ $(document).ready(function () {
     }
   }
 
-  var viewport = window.matchMedia("(min-width: 1200px)")
-  viewport_query(viewport) // Call listener function at run time
-  viewport.addListener(viewport_query) // Attach listener function on state changes
+  var viewport = window.matchMedia("(min-width: 1200px)");
+  viewport_query(viewport); // Call listener function at run time
+  viewport.addListener(viewport_query); // Attach listener function on state changes
 
 });
