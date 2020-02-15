@@ -59,3 +59,16 @@
   color: white;
 }
 
+@media only screen and (max-width: 1024px) {
+  .animated_button{
+    width: 12vh;
+    height: 6vh;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .animated_button{
+    font-size: .1em;
+  }
+}
+
